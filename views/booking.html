@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Calendar</title>
+    <link href="/css/index.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<main>
+    <section class="content__wrapper">
+        <div class="content__col-7 m-auto">
+            <div class="content__container">
+                <h1 class="content__white-body-header fs-header">
+                    Book an appointment
+                </h1>
+                <p class="content__white-body-text">
+                    Not interested? <a href="/"><span class="text-primary fw-bold">Go home</span></a>
+                </p>
+                <form class="form-wrapper" id="makeBooking">
+                    <div class="form-input-wrapper">
+                        <input
+                                name="name"
+                                id="name"
+                                type="text"
+                                class="form-input"
+                                placeholder="Enter name"
+                        />
+                        <span class="form-input-placeholder">Enter name</span>
+                        <div class="mt-1">
+                            <small class="form-hint text-danger"></small>
+                        </div>
+                    </div>
+
+                    <div class="form-input-wrapper">
+                        <input
+                                name="email"
+                                id="email"
+                                type="email"
+                                class="form-input"
+                                placeholder="Enter email"
+                        />
+                        <span class="form-input-placeholder">Enter email</span>
+                        <div class="mt-1">
+                            <small class="form-hint text-danger"></small>
+                        </div>
+                    </div>
+
+                    <div class="form-input-wrapper">
+                <textarea
+                        name="message"
+                        id="message"
+                        rows="5"
+                        class="form-input"
+                        placeholder="Enter message"
+                ></textarea>
+                        <span class="form-input-placeholder">Enter message</span>
+                        <div class="mt-1">
+                            <small class="form-hint text-danger"></small>
+                        </div>
+                    </div>
+
+                    <div class="form-btn-wrap">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="./js/book-appointment.js"></script>
+</body>
+</html>

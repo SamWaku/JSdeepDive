@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <link href="/css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <section class='content__wrapper'>
+        <div class='content__col-7 m-auto'>
+            <div class='content__container'>
+                <h1 class='content__white-body-header fs-header'>
+                    Set free date
+                </h1>
+                <p class='content__white-body-text'>
+                    Not interested? <a href="#" id="goto-dashboard"><span class='text-primary fw-bold'>Go dashboard</span></a>
+                </p>
+                <form class='form-wrapper' id="submit">
+                    <div class='form-input-wrapper'>
+                        <input name="date" type="date" class="form-input" id="date-input" placeholder="Enter Date"/>
+                        <span class="form-input-placeholder">Enter Date</span>
+                        <div class='mt-1'>
+                            <small class='form-hint text-danger'></small>
+                        </div>
+                    </div>
+
+                    <div class='form-btn-wrap'>
+                        <button type='submit' class='btn btn-primary'>
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="/js/free-date.js"></script>
+</body>
+</html>

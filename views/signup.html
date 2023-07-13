@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <link href="/css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <section class='content__wrapper'>
+        <div class='content__col-7 m-auto'>
+            <div class='content__container'>
+                <h1 class='content__white-body-header fs-header'>
+                    Let’s set up your account
+                </h1>
+                <form class='form-wrapper' id="registerUser">
+                    <div class='form-input-wrapper'>
+                        <input name="name" id="name" type="text" class="form-input" placeholder="Enter name"/>
+                        <span class="form-input-placeholder">Enter name</span>
+                        <div class='mt-1'>
+                            <small class='form-hint text-danger'></small>
+                        </div>
+                    </div>
+
+                    <div class='form-input-wrapper'>
+                        <input name="email" id="email" type="email" class="form-input" placeholder="Enter email"/>
+                        <span class="form-input-placeholder">Enter email</span>
+                        <div class='mt-1'>
+                            <small class='form-hint text-danger'></small>
+                        </div>
+                    </div>
+
+                    <div class='form-input-wrapper'>
+                        <input name="username" id="username" type="text" class="form-input" placeholder="Enter Username"/>
+                        <span class="form-input-placeholder">Enter Username</span>
+                        <div class='mt-1'>
+                            <small class='form-hint text-danger'></small>
+                        </div>
+                    </div>
+
+                    <div class='form-btn-wrap'>
+                        <button type='submit' class='btn btn-primary'>
+                            Save
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="/js/create-user.js"></script>
+</body>
+</html>
